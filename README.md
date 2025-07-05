@@ -17,6 +17,9 @@ npm install react-router-dom
 
 # 6. Instala SASS como dependencia de desarrollo
 npm install -D sass
+
+# 7. Instala ANXIOS como dependencia de desarrollo
+npm install axios
  
  ----------------------------------------------------------------------
 
