@@ -13,19 +13,15 @@ function App() {
 
   return (
     <BrowserRouter>
-    <GlobalProvider>
-
-    <Header />
-
-    <Routes>
-      <Route path="/form" element={<Form />} />
-      <Route path="/" element={<Home />} />
-      <Route path="/list" element={<List />} />
-    </Routes>
-
-    <Footer />
-     
-    </GlobalProvider>
+      <GlobalProvider>
+        <Header />
+        <Routes>
+          <Route path="/form" element={<Form />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/list" element={<List />} />
+        </Routes>
+        <Footer /> 
+      </GlobalProvider>
     </BrowserRouter>
   )
 }
